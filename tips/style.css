@@ -1,0 +1,28 @@
+#heading{
+    background-color: #c3b9de;
+}
+    
+.calculations{
+    justify-content: left;
+    text-align: left;
+}
+
+#wrapper{
+    background-color: #b9c1de;
+    padding: 1%;
+    resize: vertical;
+    display: inline-block;
+}
+
+input[type=text], textarea {
+    width: 95%;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 1%;
+    resize: vertical;
+    margin-left: 1%;
+}
+
+body { 
+    border: 2px solid black;
+}

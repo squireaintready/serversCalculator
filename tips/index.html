@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Samuel Jo's Calculator</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div id = 'wrapper'>
+    <h1 id = 'heading' style = "text-align: center;">Mizumi Tip's Calculator By Samuel Jo</h1>
+
+    <div class = 'numberOfEmployees'>
+        <textarea input type = "text" id = "totalCash" name = 'name4TotalCash' placeholder = "Total Cash"></textarea>
+        <textarea input type = "text" id = "numBG" name = 'name4BG' placeholder = "Number of Bus Girls"></textarea>
+        <textarea input type = "text" id = "numBB" name = 'name4BB' placeholder = "Number of Bus Boys"></textarea>
+        <textarea input type = "text" id = "numServer" name = 'name4Server' placeholder = "Number of Servers"></textarea>
+        <button name = "submit" onclick = "clicked()" type = "submit">Calculate</button><br /><br />
+    </div>
+
+    <div class = 'calculations'>
+        Bus Girls made: <textarea output type = "text" id = "bgCash" name = 'bgCashCalculation' placeholder = "Where the CA$H AT"></textarea>
+        Bus Boys made: <textarea output type = "text" id = "bbCash" name = 'bbCashCalculation' placeholder = "Where the CA$H AT"></textarea>
+        Servers made: <textarea output type = "text" id = "serverCash" name = 'serverCashCalculation' placeholder = "Where the CA$H AT"></textarea>
+        Modulus: <textarea output type = "text" id = "modulus" name = 'remainder' placeholder = "To Piggy, or not to Piggy"></textarea><br /><br />
+
+        Bus Girls Total: <textarea output type = "text" id = "totalBgCash" name = 'totalBgCashCalculation' placeholder = "The CA$H amount be"></textarea>
+        Bus Boys Total: <textarea output type = "text" id = "totalBbCash" name = 'totalBbCashCalcuation' placeholder = "The CA$H amount be"></textarea>
+        Servers Total: <textarea output type = "text" id = "totalServerCash" name = 'totalServerCashCalculation' placeholder = "The CA$H amount be"></textarea>
+        Return to Samonim: <textarea output type = "text" id = "returnCash" name = 'totalReturnCashTo' placeholder = " HEADS UP ^^ "></textarea><br />
+
+        Total: <textarea output type = "text" id = "finalConfirmation" name = "lastconfirm" placeholder = "MUST MATCH ORIGINAL TOTAL"><mark></mark></textarea>
+    </div>
+    </div>
+    <script src = 'logic.js'></script>
+</body>
+</html>
